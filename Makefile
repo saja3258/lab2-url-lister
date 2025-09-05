@@ -27,10 +27,6 @@ run: WordCount1.jar
 	hadoop jar WordCount1.jar WordCount1 input output
 
 
-##
-## You may need to change the path for this depending
-## on your Hadoop / java setup
-##
 HADOOP_V=3.3.4
 STREAM_JAR = /usr/local/hadoop-$(HADOOP_V)/share/hadoop/tools/lib/hadoop-streaming-$(HADOOP_V).jar
 
