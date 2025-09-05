@@ -1,0 +1,8 @@
+# Ignore temporary files
+*.txt
+*.jar
+output/
+.ipynb_checkpoints/
+
+# Keep input directory but ignore specific temp files  
+!input/
